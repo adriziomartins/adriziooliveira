@@ -83,3 +83,13 @@
 .doc-event p{color:var(--muted);line-height:1.65;max-width:760px}
 .doc-event>a{display:inline-block;margin:8px 15px 0 0;font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:bold;color:var(--red);text-decoration:none}
 @media(max-width:650px){.doc-timeline article{grid-template-columns:1fr;gap:10px}.doc-event h2{font-size:30px}}
+
+/* V9 — Fontes e Referências */
+.sources-page{padding:4vh 8vw 9vh;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.source-card{border:1px solid var(--line);padding:28px;min-height:350px}
+.source-card>b{display:block;color:var(--red);font-size:11px;letter-spacing:.1em;margin-bottom:16px}
+.source-card h2{font-family:Georgia,serif;font-size:28px;font-weight:normal;margin:18px 0 12px}
+.source-card p{color:var(--muted);line-height:1.6;font-size:13px}
+.source-card dl{margin-top:24px;border-top:1px solid var(--line);font-size:11px}
+.source-card dt{font-weight:bold;text-transform:uppercase;margin-top:12px}.source-card dd{margin:4px 0 0;color:var(--muted)}
+@media(max-width:950px){.sources-page{grid-template-columns:1fr 1fr}}@media(max-width:600px){.sources-page{grid-template-columns:1fr}}
