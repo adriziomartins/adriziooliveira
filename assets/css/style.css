@@ -52,3 +52,17 @@
 .archive-method{border-top:1px solid var(--line)}.archive-method>p{max-width:820px;color:var(--muted);line-height:1.7;margin-bottom:28px}
 @media(max-width:900px){.collection-grid{grid-template-columns:1fr 1fr}.record-grid{grid-template-columns:1fr}.collection-head{grid-template-columns:1fr}.record{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.collection-grid{grid-template-columns:1fr}.record{grid-template-columns:1fr}.record img{height:320px;min-height:0}}
+
+/* V6 — Fichas documentais */
+.record-link{display:block;margin:8px 0 16px;font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--red);text-decoration:none;font-weight:bold}
+.record-page{padding:7vh 8vw 0}.record-page-head{max-width:1050px;padding-bottom:6vh}.record-page-head h1{font-size:clamp(48px,7vw,96px);margin-top:18px}
+.record-page-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:45px;padding:6vh 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.record-page-grid figure{margin:0}.record-page-grid figure img{width:100%;max-height:760px;object-fit:contain;background:#ddd8cf;display:block}
+.record-page-grid figcaption{font-size:11px;color:var(--muted);padding-top:10px}
+.record-page-grid aside{border-top:3px solid var(--red);padding-top:20px}
+.record-page-grid aside h2{font-size:34px;margin-top:0}.record-page-grid aside h3{font-family:Georgia,serif;font-weight:normal;font-size:22px;margin-top:32px}
+.record-page-grid aside p{color:var(--muted);line-height:1.6;font-size:13px}
+.record-page-grid dl{display:grid;grid-template-columns:110px 1fr;border-top:1px solid var(--line);font-size:12px}
+.record-page-grid dt,.record-page-grid dd{padding:11px 0;border-bottom:1px solid var(--line)}.record-page-grid dt{font-weight:bold;text-transform:uppercase}.record-page-grid dd{margin:0;color:var(--muted)}
+.record-context{padding:7vh 0}.record-context>p:not(.eyebrow){max-width:820px;color:var(--muted);line-height:1.7}.record-warning{border-left:2px solid var(--gold);padding-left:18px}
+@media(max-width:760px){.record-page-grid{grid-template-columns:1fr}.record-page{padding-left:6vw;padding-right:6vw}}
